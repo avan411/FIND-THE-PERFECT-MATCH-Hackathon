@@ -1,0 +1,42 @@
+#center {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+p {
+    font-size: 2vw;
+}
+
+.main-button {
+    background: linear-gradient(0deg, rgba(0, 172, 2381, 1), 0%, rgba(2, 126, 251, 1), 100%); 
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.main-button:before, .main-button:after {
+    background: rgba(2, 126, 251, 1);
+    transition: all 0.3s ease;
+
+}
+
+.main-button:hover{
+    background: transparent;
+   box-shadow: none;
+ }
+ 
+ .main-button span:hover{
+    color: rgba(2,126,251,1);
+ }
+
