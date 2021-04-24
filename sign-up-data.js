@@ -1,3 +1,3 @@
-function sendfile() {
-    var elem = document.getElementById("user");
+function subFunction() {
+    document.getElementById().submit();
 }
