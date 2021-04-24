@@ -1,4 +1,4 @@
-#center {
+#main-body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -8,35 +8,24 @@ h1 {
     font-size: 8vw;
 }
 
-body {
-    background-color: #f6f6f6;
-}
-
 p {
     font-size: 2vw;
 }
 
 .main-button {
-    background: linear-gradient(0deg, rgba(0, 172, 2381, 1), 0%, rgba(2, 126, 251, 1), 100%); 
+    background: rgba(0, 255, 0, 1);
+    padding: 0.5em 1.5em;
     width: 130px;
     height: 40px;
     padding: 0;
     cursor: pointer;
+    border-radius: 1,8em 1.5em 1.5em 0;
+    transition: transform 0.2s box-shadow 0.05s;
     
 }
 
-.main-button:before, .main-button:after {
-    background: rgba(2, 126, 251, 1);
-    transition: all 0.3s ease;
-
-}
-
 .main-button:hover{
-    background: transparent;
-   box-shadow: none;
- }
+   transform: translateY(-5px);
+   box-shadow: 0 5px 5px #00000040;
+}
  
- .main-button span:hover{
-    color: rgba(2,126,251,1);
- }
-
